@@ -57,6 +57,75 @@ rization.
  • username= bob, password=bob
  
  • username= john, password=john (ADMIN)
+
+
+**Sample Data**
+
+
+
+
+
+**/deposit**
+{
+    "transactionId": "a91e6d03-96bf-4767-8e15-64fb29cc5ee7",
+    "amount": 5000.00,
+    "currency": "GBP",
+    "transactionDate": "2025-08-25T09:15:00",
+    "accountId": "acc24680",
+    "accountHolder": "Carol White",
+    "source": "ATM",
+    "referenceNumber": "REF1122334455",
+    "description": "Savings deposit",
+    "status": "Completed",
+    "createdBy": "carolUser"
+}
+
+
+**/customer**
+{
+    "id": "cf7921a3-80b5-4764-b089-9331bb3d27f9",
+    "address": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "country": "USA",
+    "zip": "62704",
+    "mobile": "+1-555-123-4567",
+    "email": "john.doe@example.com",
+    "name": "John Doe"
+}
+
+**/account**
+{
+"accountId": "2",
+"accountName": "bob",
+"accountType": "Current",
+"accountNumber": "IR787438474",
+"accountBalance": "890",
+"accountStatus": "Active",
+"createdBy": "Khurram",
+"createdOn": "10-08-2025"
+}
+
+
+**/payment**
+{
+"userId": "400",
+"solanceFrom": "EUR",
+"solanceTo": "GBP",     
+"amountSell": "1000",
+"amountBuy": 9890.10,
+"rate": 0.7471,
+"beneficiaryIBAN": "IRL78645789",
+"originatingCountry" : "FR",  
+"paymentRef" : "3456893",
+"invoiceNumber" :"456864",
+"purposeRef" : "Invoice Payment",
+"invoicePayment":"7885",
+ "timePlaced": "" 
+ } 
+
+
+ 
  
 
 
