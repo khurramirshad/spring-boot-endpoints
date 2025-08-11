@@ -4,6 +4,8 @@ ments, Accounts, Deposits, and Customers, backed by MongoDB Atlas. It also inclu
  a React Native frontend UI to interact with these services. The backend is containerized with
  Docker and deployed on AWS ECS Fargate and S3, with infrastructure provisioned using Ter
 raform.
+
+
 **1.1 Tech Stack**
            • Backend: Java Spring Boot (hosted on AWS ECS)
            • Database: MongoDB Atlas (hosted on AWS)
