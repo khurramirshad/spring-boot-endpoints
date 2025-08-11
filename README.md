@@ -35,10 +35,10 @@ raform.
  The following REST API endpoints are exposed and secured with Spring Security role-based
  authentication and authorization:
  
- • http://34.224.32.22:80/payment
- • http://34.224.32.22:80/account
- • http://34.224.32.22:80/deposit
- • http://34.224.32.22:80/customer
+        • http://34.224.32.22:80/payment
+        • http://34.224.32.22:80/account
+        • http://34.224.32.22:80/deposit
+        • http://34.224.32.22:80/customer
  
 **Security**
  The API endpoints are secured using Spring Security with role-based authentication and autho
