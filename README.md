@@ -1,19 +1,19 @@
-1 Overview
+**1 Overview**
  This project consists of a Java Spring Boot backend providing REST APIs for managing Pay
 ments, Accounts, Deposits, and Customers, backed by MongoDB Atlas. It also includes
  a React Native frontend UI to interact with these services. The backend is containerized with
  Docker and deployed on AWS ECS Fargate and S3, with infrastructure provisioned using Ter
 raform.
- 1.1 Tech Stack
- • Backend: Java Spring Boot (hosted on AWS ECS)
- • Database: MongoDB Atlas (hosted on AWS)
- • Frontend: React Native (hosted on AWS S3-static pages)
- • Containerization: Docker
- • Infrastructure: AWS ECS (Fargate), Terraform
- • Deployment: Docker Hub + Terraform automation
- • Testing: JUnit 5 , Mockito
- • Version Control: GIT, GITHUB
- 1.2 Git Repositories
+**1.1 Tech Stack**
+           • Backend: Java Spring Boot (hosted on AWS ECS)
+           • Database: MongoDB Atlas (hosted on AWS)
+           • Frontend: React Native (hosted on AWS S3-static pages)
+           • Containerization: Docker
+           • Infrastructure: AWS ECS (Fargate), Terraform
+           • Deployment: Docker Hub + Terraform automation
+           • Testing: JUnit 5 , Mockito
+           • Version Control: GIT, GITHUB
+ **1.2 Git Repositories**
  • React Frontend Repository:
  https://github.com/khurramirshad/React-Frontend
  • Spring Boot Endpoints Repository:
